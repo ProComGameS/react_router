@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { NavLink } from "react-router";
 
 function Header() {
 
@@ -7,17 +7,23 @@ function Header() {
         <>
         <div>
             <li>
-            <Link to={'/'}>Home</Link>
+            <NavLink to={'/'}>Home</NavLink>
             </li>
 
             <li>
-                <Link to={'/about'}>About</Link>
+                <NavLink to={'/about'}>About</NavLink>
             </li>
 
 
             <li>
-                <Link to={'/contacts'}>Contacts</Link>
+                <NavLink to={'/contacts'}>Contacts</NavLink>
             </li>
+
+
+            <li>
+                <NavLink to={'/auth'}>Auth</NavLink>
+            </li>
+
 
         </div>
         </>

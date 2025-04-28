@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+a.active {
+  color: #b700ff;
+}
+a.active:hover {
+  color: #ce67ff;
+}
+
+a {
+  color: #7620fa;
+}
